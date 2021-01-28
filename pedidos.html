@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Pedidos</title> 
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+</head>
+<body>
+    <div class="container">
+        <div class="section">
+            <h4 id="botonInv">Pedidos</h4>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Nombre Producto</th> 
+                        <th>Precio Compra</th> 
+                        <th>Precio Venta</th>
+                        <th>Ganancia </th>
+
+                    </tr>
+                    
+                </thead>
+                <tbody id="respuesta">
+                </tbody>
+            </table>
+            <hr>
+            <button class="btn" id="btnDelet" onclick="calcular()">Calcular</button>
+            <button class="btn" id="btnDelet" onclick="refresh()">Borrar</button>
+            <button class="btn" id="btnBack" onclick="window.location.href='/index.html'">Atras</button>
+
+    </div>
+    <script src="js/ajax1.js"></script>
+</body>
+</html>

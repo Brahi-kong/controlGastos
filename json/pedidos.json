@@ -1,0 +1,50 @@
+[
+    {
+      "nombre_Producto": "Cerveza",
+      "precio_Compra": 400,
+      "precio_Venta": 600,
+      "ganancia": 200,
+      "cantidad": 1
+    },
+    
+    {
+      "nombre_Producto": "Coca-cola",
+      "precio_Compra": 600,
+      "precio_Venta": 800,
+      "ganancia": 200,
+      "cantidad": 1
+    },
+
+    {
+      "nombre_Producto": "Coca-cola",
+      "precio_Compra": 600,
+      "precio_Venta": 800,
+      "ganancia": 200,
+      "cantidad": 1
+    },
+
+    {
+      "nombre_Producto": "Coca-cola",
+      "precio_Compra": 600,
+      "precio_Venta": 800,
+      "ganancia": 200,
+      "cantidad": 1
+    },
+
+    {
+      "nombre_Producto": "Coca-cola",
+      "precio_Compra": 600,
+      "precio_Venta": 800,
+      "ganancia": 200,
+      "cantidad": 1
+    },
+  
+    {
+      "nombre_Producto": "Pre-pizza",
+      "precio_Compra": 250,
+      "precio_Venta": 400,
+      "ganancia": 150,
+      "cantidad": 1
+    }
+  ]
+  

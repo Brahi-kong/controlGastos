@@ -1,0 +1,38 @@
+let datos = traerDatos();  
+
+function traerDatos () {
+	// leo archivo
+	// parseo json
+
+return jsonParseado;
+}
+
+function mostrarDatos () {
+	// obtengo la lista a partir del id
+
+	let res = document.querySelector('#res');
+	                res.innerHTML += ` 
+                <tr>
+                    <td>${item.nombre_Producto}</td>
+                    <td>${item.precio_Compra}</td>
+                    <td>${item.precio_Venta}</td>
+                    <td>${item.ganancia}</td>
+                <tr>
+                ` 
+
+	forEach( items in Data) {
+		lista.agregarItem();
+	}
+}
+
+function agregarDatos(datoNuevo) {
+
+	if (datoYaExiste() {
+	datos.find(nuevoDato).cantidad += datoNuevo.cantidad;
+	}
+	
+	datos.add(datoNuevo);
+	mostrarDatos();
+}
+
+
